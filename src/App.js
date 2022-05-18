@@ -27,7 +27,7 @@ function App() {
           return (
             <Link key={key} to={`view/${card.ID}`}>
               <Card
-                title={card.title.rendered}
+                title={card.title}
                 content={card.content.rendered}
                 date={card.date}
                 data={card.excerpt.rendered}
